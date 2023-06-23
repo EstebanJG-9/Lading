@@ -1,0 +1,80 @@
+body{
+background-color: rgba(58, 53, 53, 0.116);
+
+
+}
+
+/*hanna  */
+
+
+form{
+  width: 400px;
+   margin: 0 auto;
+   background-color: rgb(172, 226, 201);
+   margin-top: 70px;
+   padding: 50px 20px;
+   border-radius: 20px;
+   box-shadow: 0 2px 3px rgb(56, 100, 69);
+   
+
+}
+
+h1{
+    text-align: center;
+    border-bottom: 6px solid rgb(46, 65, 57);
+}
+
+input{
+width: 97%;
+height: 25px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+border-radius: 4px;
+
+
+}
+input[type = "submit"]{
+    margin-top: 35px;
+    height: 35px;
+    width: 99%;
+    border-radius: 40px;
+    
+}
+
+.dibujitos{
+    display: block; /*esto lo centra*/
+    margin: 0 auto; /*esto tambien */
+ 
+}
+
+@media (min-with:768px){
+    .form{
+         margin: 0 auto;
+         background-color: rgb(228, 183, 183);
+         margin-top: 70px;
+         padding: 50px 20px;
+         border-radius: 20px;
+      
+      }
+
+      .input{
+        width: 8%;
+        height: 25px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        
+        
+        }
+        .input[type = "submit"]{
+            margin-top: 35px;
+            height: 35px;
+            width: 99%;
+            border-radius: 40px;
+            
+        }
+}
+
+/*esteban */
+
+

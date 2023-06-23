@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--formulario de ingreso de sesion  por roles-->
+<!--rol -> Administrador-->
+<!--rol-> Fanatico -->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/icon_logoop2.svg">
+    <title>login</title>
+    <!--estilos ccs  con la imagen del icono -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+  <link rel="stylesheet" href="./css/login.css">
+
+</head>
+<body>
+    <!--la imagen del fondo se referencio  en los estilos de login  / css/login.css-->
+   <form  action="validar.php" method="post">
+
+   <h1 >Inicio de Sesión</h1>
+
+   <p>Usuario <input type="text" placeholder="ingrese su nombre" name="usuario"></p>
+
+   <p>Contraseña <input type="password" placeholder="ingrese su contraseña" name="contraseña"></p>
+   <!--permite evaluar los datos ingresados -->
+   <input type="submit" value="Ingresar">
+   <img src="./images/tortuga.png" alt="" class="dibujitos">
+   </form> 
+
+   <script src="./js/menu.js"></script>
+
+
+</body>
+</html> 
